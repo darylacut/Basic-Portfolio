@@ -4,6 +4,10 @@
     padding: 0px;
   }
 
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
 
 /*----------------header---------------*/
 
@@ -33,7 +37,6 @@ header {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
-    
     float: left;
 }
 
@@ -62,6 +65,7 @@ nav {
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
+    padding-bottom: 50px; 
 }
 
 .aboutme {
@@ -79,7 +83,7 @@ img {
     border-style: solid;
     display: inline;
     float: right;
-    position: relative;
+  
 }
 
 /*-------------footer--------------*/
@@ -92,6 +96,9 @@ footer {
     text-align: center;
     height: 50px;
     display: inline-block;
+    position: absolute;
+    bottom: 0;
+
 }
 
 .footer-container {
