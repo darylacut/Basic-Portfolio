@@ -5,16 +5,25 @@
   }
 
 
+/*----------------header---------------*/
+
+
 header {
     background-color: yellow;
     width: 100%;
     position: fixed;
-    
+    overflow: auto;
+    border-color: black;
+    border-style: solid;
+    z-index: 100;
 }
 
-.header-list {
-    width: 960px;
-    position: center;
+
+.header-container {
+    max-width: 960px;
+    border-style: solid;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .name {
@@ -23,7 +32,8 @@ header {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
-    margin-left: 60px;
+    
+    float: left;
 }
 
 nav {
@@ -38,7 +48,50 @@ nav {
     color: black;
     background-color: green;
     margin-left: 5px;
-    margin-right: 5px:
-
+    margin-right: 5px;
 }
 
+
+/*---------------main-----------------*/
+
+
+.content-container {
+    max-width: 960px;
+    border-style: solid;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.aboutme {
+    border-style: solid;
+    width: 100%;
+}
+
+img {
+    border-style: solid;
+    float: left;
+}
+
+.description {
+    border-style: solid;
+    display: inline;
+    float: right;
+    position: relative;
+}
+
+/*-------------footer--------------*/
+
+
+footer {
+    background-color: yellow;
+    width: 100%;
+    border-style: solid;
+    text-align: center;
+    height: 50px;
+    display: inline-block;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 960px;
+}
