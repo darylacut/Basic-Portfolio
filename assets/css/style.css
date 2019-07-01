@@ -24,6 +24,7 @@ header {
     border-style: solid;
     width: 100%;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .name {
@@ -60,6 +61,7 @@ nav {
     border-style: solid;
     width: 100%;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .aboutme {
@@ -95,4 +97,5 @@ footer {
 .footer-container {
     width: 100%;
     max-width: 960px;
+    margin: 0 auto;
 }
